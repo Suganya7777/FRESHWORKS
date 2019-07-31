@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+  body{
+   
+      background-image: url(http://wallpapercanyon.com/wp-content/uploads/2016/01/World-Map-Wallpaper-24.jpg);
+      background-repeat: repeat-y;
+      background-attachment: scroll;
+    }
+
+
+.div {
+  font-size: 4rem;
+}
+
+#Name {
+  font-size: 2.5rem;
+  color: #f3eded;
+}
+
+input {
+  position: relative;
+  left:auto;
+  width: 50rem;
+  height: 3rem;
+}
+.bg {
+  /* The image used */
+  background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+#traverse {
+  background-color: #ccc;
+  padding: 1rem;
+  width: 5rem;
+  position: relative;
+  left: auto;
+  font-family: sans-serif;
+  font-size: 1rem;
+  color:#3a0a00;
+  text-align: center;
+
+}
+
+.div1 {
+
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem;
+}
+.results{
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+  transition: 0.3s;
+  width: 40%;
+}
+
+.results:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  border: 3px dashed black;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: grab;
+
+}
+
+.flagimg{
+  width: 18rem;
+  margin: 2rem;
+  border-radius: 5px 5px 0 0;
+  border:5px solid black;
+}
+/*.textSpan{
+  font-family: arial;
+  color: red;
+  font-size: 3rem;
+}*/
+
+.back1 {
+  padding: .6rem;
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 1250px;
+}
+
+
+.container {
+  height: fit-content;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  color:white;
+  font-family: sans-serif;
+}
+/*media queries*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .flagimg{
+  width: 18rem;
+  margin: 2rem;
+  border-radius: 5px 5px 0 0;
+  border:5px solid black;
+}
+
+.container {
+  height: fit-content;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  color:white;
+  font-family: sans-serif;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  border: 3px dashed black;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: grab;
+
+}
+}
